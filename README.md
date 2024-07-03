@@ -28,10 +28,10 @@ To use this project, run the following command:
 
 ```sh
 python main.py
+```
 
 
-
-# mycobot
+# myCobot
 
 ## Using MyCobot and WebCam OpenCV camera
 
@@ -80,6 +80,17 @@ The J2 and J3 axes are used to move the object in the depth direction. Moving on
 
   Setting Target Values
     The Code below determines the target value for where myCobot will pont the camera. nnData[0] indicate the coordinates of the four corners of the boundingBox surrounding the face detected by the camera. The sum of the coordinates of the four corners divided by 2 will give the center point of the BoundingBox surrounding the face. spatialCoordinates.z is a method that returns the measurement result of the distance between the camera and the face.
+
+    
+### Additional Tips
+
+- **Badges**: Add badges for build status, coverage, license, etc.
+- **Code of Conduct**: Include a code of conduct to outline expected behavior.
+- **Issue Templates**: Set up issue and pull request templates for consistent contributions.
+- **Project Board**: Use GitHub Project Boards to track issues and pull requests.
+
+By following these tips and structuring your repository professionally, you'll make it easier for others to understand, use, and contribute to your project.
+
 
 ## Conclusion
   This time, i tried face tracking using face recognition with a Webcam and a robot arm capable of complex movements. You can see that if you capture human movements with computer vision and operate a robot arm accordingly, it can perform a wide variety of movements. We hope this will be helpful for your development.
