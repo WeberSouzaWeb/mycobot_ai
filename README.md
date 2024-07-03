@@ -1,8 +1,34 @@
-NanoSAM
-👍 Usage - ⏱️ Performance - 🛠️ Setup - 🤸 Examples - 🏋️ Training
-- 🧐 Evaluation - 👏 Acknowledgment - 🔗 See also
+# My Awesome Project
 
-NanoSAM is a Segment Anything (SAM) model variant that is capable of running in 🔥 real-time 🔥 on NVIDIA Jetson Orin Platforms with NVIDIA TensorRT.
+This project is designed to do awesome things with computer vision and robotics.
+
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [Features](#features)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Installation
+
+To install this project, follow these steps:
+
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/username/repository.git
+    ```
+2. Install the required packages:
+    ```sh
+    pip install -r requirements.txt
+    ```
+
+## Usage
+
+To use this project, run the following command:
+
+```sh
+python main.py
+
 
 
 # mycobot
