@@ -3,9 +3,12 @@ This project is designed to do awesome things with computer vision and robotics.
 
 ## Table of Contents
 - [Installation](#installation)
-- [Using MyCobot and WebCam OpenCV](#using)
-- [Robo Arm Movment](#robot)
-- [SetUp](#Set UP)
+- [Using MyCobot and WebCam OpenCV](#using-mycobot-and-webcam-opencv-camera)
+- [Robo Arm Movement](#robot-arm-movement)
+- [Face Tracking on the XY Plane](#face-tracking-on-the-xy-plane)
+- [Depth (Z) Face Tracking](#depth-z-face-tracking)
+- [Mycobot and WebCam](#mycobot-and-webcam)
+- [SetUP](#setup)
 
 ## Installation
 
@@ -69,7 +72,7 @@ The J2 and J3 axes are used to move the object in the depth direction. Moving on
   The WebCam and the RaspberryPi that comes with myCobot are connected via USB.
   The WebCam camera determines the target coordinates of the face, and the RaspberryPi that comes with myCobot uses PID control to change the camera's orientation according to those coordinates.
 
-## Set UP
+## SetUP
   We will set up the environment for RaspberryPi that comes with myCobot.
   
 
