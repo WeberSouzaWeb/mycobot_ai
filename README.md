@@ -1,12 +1,12 @@
-# My Awesome Project
-
+# myCobot
 This project is designed to do awesome things with computer vision and robotics.
 
 ## Table of Contents
 - [Installation](#installation)
-- [Usage](#usage)
-- [Features](#features)
-- [Contributing](#contributing)
+- [Usage](#Setup)
+- [Using MyCobot and WebCam OpenCV](#using)
+- [Robo Arm Movment](#robot)
+- [SetUp](#setup)
 - [License](#license)
 
 ## Installation
@@ -15,14 +15,20 @@ To install this project, follow these steps:
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/username/repository.git
+    git clone https://github.com/WeberSouzaWeb/mycobot_ai
     ```
 2. Install the required packages:
     ```sh
     pip install -r requirements.txt
+      ```
+3. Install the OpenCV:
+    ```sh
+    pip install opencv-python
     ```
-
-## Usage
+4. Install the myCobot API for Python:
+    ```sh
+    pip install pymycobot
+    ```
 
 To use this project, run the following command:
 
@@ -30,14 +36,11 @@ To use this project, run the following command:
 python main.py
 ```
 
-
-# myCobot
-
 ## Using MyCobot and WebCam OpenCV camera
 
 ![image](https://github.com/WeberSouzaWeb/mycobot_ai/assets/107212929/afb1a27b-4f69-4a19-9286-837bfcb819f8)
 
-https://shop.elephantrobotics.com/products/mycobot-pi-worlds-smallest-and-lightest-six-axis-collaborative-robot?sscid=71k8_gzej
+[MyCobot to Shop](https://shop.elephantrobotics.com/products/mycobot-pi-worlds-smallest-and-lightest-six-axis-collaborative-robot?sscid=71k8_gzej)
 
 This is a webcam arm that always adjusts the position of the display to an appropriate distance in front of your eyes. It is mainly composed of an open source lib camera and a robot arm called "myCobot". The camera can obtain depth information as well as imagens, and calculate the distance from the camera to your face. MyCobot is a robot arm with six rotation axes that can create a variety of movements. The 3D position of your face is calculated from the images obtained through the Lib camera, and myCobot delivers the position display to right in front of your eyes. 
 
@@ -75,22 +78,11 @@ The J2 and J3 axes are used to move the object in the depth direction. Moving on
   The RaspberryPi version of myCobot is ready to use as soon as you power it on. 
   The robot arm can be run with python and is officiolly supported.
 
-  ### PID
-    If the movement of MyCobot is unstable, please try adjusting the PID value.
+### PID
+If the movement of MyCobot is unstable, please try adjusting the PID value.
 
   Setting Target Values
     The Code below determines the target value for where myCobot will pont the camera. nnData[0] indicate the coordinates of the four corners of the boundingBox surrounding the face detected by the camera. The sum of the coordinates of the four corners divided by 2 will give the center point of the BoundingBox surrounding the face. spatialCoordinates.z is a method that returns the measurement result of the distance between the camera and the face.
-
-    
-### Additional Tips
-
-- **Badges**: Add badges for build status, coverage, license, etc.
-- **Code of Conduct**: Include a code of conduct to outline expected behavior.
-- **Issue Templates**: Set up issue and pull request templates for consistent contributions.
-- **Project Board**: Use GitHub Project Boards to track issues and pull requests.
-
-By following these tips and structuring your repository professionally, you'll make it easier for others to understand, use, and contribute to your project.
-
 
 ## Conclusion
   This time, i tried face tracking using face recognition with a Webcam and a robot arm capable of complex movements. You can see that if you capture human movements with computer vision and operate a robot arm accordingly, it can perform a wide variety of movements. We hope this will be helpful for your development.
