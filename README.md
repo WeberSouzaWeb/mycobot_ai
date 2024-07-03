@@ -3,11 +3,9 @@ This project is designed to do awesome things with computer vision and robotics.
 
 ## Table of Contents
 - [Installation](#installation)
-- [Usage](#Setup)
 - [Using MyCobot and WebCam OpenCV](#using)
 - [Robo Arm Movment](#robot)
-- [SetUp](#setup)
-- [License](#license)
+- [SetUp](#Set UP)
 
 ## Installation
 
