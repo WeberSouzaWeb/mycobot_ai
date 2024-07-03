@@ -1,3 +1,10 @@
+NanoSAM
+👍 Usage - ⏱️ Performance - 🛠️ Setup - 🤸 Examples - 🏋️ Training
+- 🧐 Evaluation - 👏 Acknowledgment - 🔗 See also
+
+NanoSAM is a Segment Anything (SAM) model variant that is capable of running in 🔥 real-time 🔥 on NVIDIA Jetson Orin Platforms with NVIDIA TensorRT.
+
+
 # mycobot
 
 ## Using MyCobot and WebCam OpenCV camera
